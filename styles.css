@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,10 +14,10 @@ body {
 
 header {
     background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +55,8 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.btn-nav {
-    background: #3730a3;
+.btn-nav :hover {
+   background: #3730a3;
 }
 
 /* HERO */
@@ -126,7 +126,7 @@ nav a:hover {
     padding: 30px;
     border-radius: 12px;
     width: 260px;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.05);
     transition: 0.3s;
  }
 
@@ -163,7 +163,7 @@ nav a:hover {
     transition: 0.3s;
  }
 
- .cta button:hover {
+ .cta button :hover {
     background: #e5e7eb;
  }
 
@@ -192,4 +192,5 @@ nav a:hover {
     nav ul {
         display: none;
     }
+    
  }
