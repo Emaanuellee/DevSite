@@ -7,7 +7,7 @@
 
 body {
     background: #f5f7fb;
-    color: #333;
+    color: #ffffff;
 }
 
 /* NAVBAR */
@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-    color: #4f46e5;
+    color: #a53173;
 }
 
 nav ul {
@@ -42,11 +42,11 @@ nav a {
 }
 
 nav a:hover {
-    color:  #4f46e5;
+    color:  #d1248f;
 }
 
 .btn-nav {
-    background: #4f46e5;
+    background: #a1176c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .btn-nav :hover {
-   background: #3730a3;
+   background: #851e5a;
 }
 
 /* HERO */
@@ -74,18 +74,18 @@ nav a:hover {
 }
  .hero-text h1 {
     font-size: 48px;
-    color: #111;
+    color: #ffffff;
     margin-bottom: 20px;
  }
 
  .hero-text p {
     font-size: 18px;
     margin-bottom: 25px;
-    color: #555;
+    color: #c2c2c2;
  }
 
  .btn-main {
-    background: #06b6d4;
+    background: #d406b2;
     color: white;
     border: none;
     padding: 15px 25px;
@@ -96,7 +96,7 @@ nav a:hover {
  }
 
  .btn-main:hover {
-    background: #0891b2;
+    background: #b20882;
  }
 
  .hero-img img {
@@ -122,11 +122,11 @@ nav a:hover {
  }
 
  .card {
-    background: white;
+    background: rgb(141, 7, 114);
     padding: 30px;
     border-radius: 12px;
     width: 260px;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: 0.3s;
  }
 
@@ -136,13 +136,13 @@ nav a:hover {
 
  .card h3 {
     margin-bottom: 15px;
-    color: #4f46e5;
+    color: #ffffff;
  }
 
  /* CTA */
 
  .cta {
-    background: #4f46e5;
+    background: #c20e8f;
     color: white;
     text-align: center;
     padding: 70px 20px;
@@ -154,7 +154,7 @@ nav a:hover {
 
  .cta button {
     background: white;
-    color: #4f46e5;
+    color: #9a0a71;
     border: none;
     padding: 15px 25px;
     border-radius: 10px;
